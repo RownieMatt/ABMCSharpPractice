@@ -1,0 +1,15 @@
+using System;
+
+namespace MyCompiler {
+    class Program {
+        public static void Main(string[] args) 
+        {
+            
+        }
+     public static void CircumferenceofC(double Radius)
+        {
+            double Circumference = Math.PI * 2 * Radius;
+            Console.WriteLine($"Circumference of the radius{Radius} is {Circumference}.");
+        }
+    }
+}
